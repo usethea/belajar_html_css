@@ -1,0 +1,152 @@
+/* COLOR SETS
+Dark: #8e44ad;
+light: #7f8c8d;
+punch: #e74c3c;
+neutral: #fefefe;
+*/
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #000;
+    background-color: #fefefe;
+}
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+} 
+header {
+    display: block;
+    width: 100%;
+    font-size: 0;
+    border-bottom: 1px solid #7f8c8d;
+    box-shadow: 2px 2px 5px #7f8c8d;
+    padding: 10px 0;
+}
+header section,
+.footer section {
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+}
+header .logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    font-weight: 700;
+}
+header .logo a,
+header .logo a:hover,
+header .logo a:active {
+    color: #8e44ad;
+    text-decoration: none;
+}
+header .navigasi {
+    font-size: 14px;
+    text-align: right;
+}
+nav ul, nav ul li {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    padding: 5px 10px;
+    font-weight: 700;
+}
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: all .3s linear; 
+}
+nav ul li a:hover,
+nav ul li a.active {
+    color: #8e44ad;
+    text-decoration: underline;
+}
+
+.hero {
+    width: 100%;
+    height: 300px;
+    color: #fefefe;
+    text-align: center;
+    line-height: 30px;
+    background-image: linear-gradient(to top left, #8e44ad, #e74c3c);
+}
+.hero h2 {
+    font-size: 40px;
+    padding-top: 100px;
+}
+.content .container {
+    margin-top: -50px;
+}
+.content .container article {
+    background: #fefefe;
+    padding: 10px;
+    border-radius: 10px;
+}
+.content .container article p {
+    margin-bottom: 20px;
+}
+.content .container article.skills {
+    text-align: center; 
+}
+.kriteria {
+    display: inline-block;
+    font-size: 0;
+    text-align: center;
+    color: #7f8c8d;
+    width: 30%;
+    min-height: 230px;
+    vertical-align: top;
+    border: 1px solid #7f8c8d;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+.kriteria .icon {
+    font-size: 80px;
+}
+.kriteria .icon .fa-html5 {
+    color: #e34c26;
+}
+.kriteria .icon .fa-css3 {
+    color: #264de4;
+}
+.kriteria .icon img {
+    height: 80px;
+    width: auto;
+}
+.kriteria .title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    border-bottom: 1px solid #7f8c8d;
+}
+.kriteria .deskripsi {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.footer {
+    width: 100%;
+    height: 80px;
+    font-size: 0;
+    color: #fefefe;
+    margin-top: 20px;
+    background: #8e44ad;
+}
+.footer .social-media {
+    font-size: 32px;
+}
+.footer .social-media a {
+    text-decoration: none;
+    color: #f3f3f3;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+.footer .signature {
+    font-size: 16px;
+    text-align: right;
+    vertical-align: bottom;
+}
